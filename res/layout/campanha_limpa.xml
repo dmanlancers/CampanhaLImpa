@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logobgd"
+    android:orientation="vertical"
+    android:scrollbarStyle="insideOverlay"
+    android:scrollbars="vertical"
+    tools:ignore="HardcodedText" >
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="169dp" >
+    </TableRow>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/estatisticas"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="14dp"
+        android:text="Estatísticas"
+        android:textColor="@color/AZUL"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/comicios"
+        android:layout_alignLeft="@+id/comicios"
+        android:layout_marginLeft="14dp"
+        android:text="Ações"
+        android:textColor="@color/AZUL"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/brindes"
+        android:layout_alignLeft="@+id/textView4"
+        android:text="Brindes"
+        android:textColor="@color/AZUL"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/estatisticas"
+        style="@style/MarginlessImageButton"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/brindes"
+        android:background="@drawable/est" />
+
+    <ImageButton
+        android:id="@+id/cartazes"
+        style="@style/AppBaseTheme"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tableRow1"
+        android:layout_marginTop="107dp"
+        android:background="@null"
+        android:scaleType="fitEnd"
+        android:src="@drawable/cartaz" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_alignLeft="@+id/textView1"
+        android:text="Cartazes"
+        android:textColor="@color/AZUL"
+        android:textSize="18sp" />
+
+    <ImageButton
+        android:id="@+id/brindes"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_above="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/brindes" />
+
+    <ImageButton
+        android:id="@+id/comicios"
+        android:layout_width="90dip"
+        android:layout_height="90dip"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/cartazes"
+        android:background="@drawable/comicio" />
+
+</RelativeLayout>

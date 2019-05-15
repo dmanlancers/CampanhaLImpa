@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget33"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logobg" >
+
+<ImageView
+	android:id="@+id/ImageView"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_centerVertical="true"
+	android:layout_centerHorizontal="true" />
+
+<RelativeLayout
+    android:id="@+id/widget35"
+    android:layout_width="320dp"
+    android:layout_height="96dp"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/ImageView"
+    android:layout_marginTop="35dp" >
+
+   
+  
+
+</RelativeLayout>
+
+
+
+<Button
+    android:id="@+id/Upload"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:text="Enviar a Imagem" />
+
+<Button
+    android:id="@+id/choose"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:text="Escolha a Imagem" />
+ <RelativeLayout
+         android:layout_width="500dp"
+    android:layout_height="wrap_content">
+<EditText
+    android:id="@+id/Caption"
+    android:layout_width="500dp"
+    android:layout_height="70dp"
+    
+    android:layout_alignParentLeft="true"
+    android:ems="10"
+    android:hint="Comentário(opcional)"
+    android:lines="5" >
+
+    <requestFocus />
+</EditText>
+  </RelativeLayout>
+</RelativeLayout>

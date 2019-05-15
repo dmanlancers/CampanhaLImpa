@@ -1,0 +1,15 @@
+<resources>
+
+  <style name="MarginlessImageButton" parent="android:Widget.ImageButton">
+    <item name="android:background">@null</item>
+</style>
+
+<style name="AppTheme" parent="AppBaseTheme">
+    <item name="android:imageButtonStyle">@style/MarginlessImageButton</item>
+</style>
+
+
+   
+
+
+</resources>

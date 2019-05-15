@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+	android:id="@+id/widget73"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:background="@drawable/logobg" >
+<RelativeLayout
+	android:id="@+id/widget74"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/logobg" >
+<LinearLayout
+	android:id="@+id/widget78"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:padding="10dip"
+	android:orientation="vertical"
+	android:layout_alignParentTop="true"
+	android:layout_centerHorizontal="true">
+<LinearLayout
+	android:id="@+id/header"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+<ImageView
+	android:id="@+id/widget76"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:layout_marginLeft="10dip"
+	android:src="@drawable/logo" />
+</LinearLayout>
+<TextView
+	android:id="@+id/widget79"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Utilizador"
+	android:textColor="#ff372c24" />
+<EditText
+	android:id="@+id/username"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="20dip" 
+	android:hint="Nome de utilizador (Obrigatório)"/>
+<TextView
+	android:id="@+id/widget89"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Email"
+	android:textColor="#ff372c24" />
+<EditText
+	android:id="@+id/email"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5dip"
+	android:layout_marginBottom="20dip" 
+	android:hint="Email (Obrigatório)"/>
+<TextView
+	android:id="@+id/widget81"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Palavra Passe"
+	android:textColor="#ff372c24" 
+/>
+<EditText
+	android:id="@+id/password"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5dip"
+	android:password="true" 
+	android:hint="Palavra passe (Obrigatório)"/>
+<TextView
+	android:id="@+id/widget81"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:text="Confirmar Palavra Passe"
+	android:textColor="#ff372c24" />
+<EditText
+	android:id="@+id/confirmar_password"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="5dip"
+	android:password="true" 
+	android:hint="Confirmar Palavra passe (Obrigatório)"/>
+<Button
+	android:id="@+id/register"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="10dip"
+	android:text="Registar" />
+<TextView
+	android:id="@+id/login1"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:layout_marginTop="40dip"
+	android:layout_marginBottom="40dip"
+	android:text="J&#225; registado?Autentica&#231;&#227;o aqui"
+	android:textSize="20dip"
+	android:textColor="#ff0b84aa" 
+	android:clickable="true" />
+</LinearLayout>
+</RelativeLayout>
+</ScrollView>

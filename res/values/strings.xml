@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="AZUL">#3366FF</color>
+<color name="BRANCO">#ffffff</color>
+ <color name="textbody">#ffcc33</color>
+ <string name="app_name">Campanha Limpa</string>
+    <string name="action_settings">Sobre</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="titulo_gps">Definições de GPS</string>
+    <string name="mensagem_gps">GPS está desligado. Vá a definições e ligue.</string>
+    <string name="definicoes_gps">Definições</string>
+    <string name="cancelar_gps">Cancelar</string>
+     <string name="titulo_internet">Definições de Internet Móvel</string>
+    <string name="mensagem_internet">Wifi/3G está desligado. Vá a definições e ligue.</string>
+    <string name="definicoes_internet">Definições</string>
+    <string name="cancelar_internet">Cancelar</string>
+    <string name="sobre">"\n \n"A Campanha Limpa foi desenvolvida por um grupo de jovens informáticos dedicados à causa pública, sob iniciativa da TIAC – Transparência e Integridade, Associação Cívica. Está aberta ao teu contributo, para que nos ajudes a criar uma democracia mais transparente e saudável."\n \n"</string>
+    <string name="ficha">Ficha Técnica"\n \n"</string>
+    <string name="orientadores">Orientadores de Projeto"\n \n"</string>
+    <string name="orientadores_nome">Luís de Sousa (Presidente TIAC), João Paulo Batalha (Direção TIAC)"\n \n"</string>
+    <string name="coordenador">Coordenador do Projeto"\n \n"</string>
+     <string name="coordenador_nome">Celso Rodrigues (Webmaster TIAC)"\n \n"</string>
+     <string name="programadores">Programadores Site</string>
+     <string name="programadores_nome">Philippe Moreil, José Costa e Celso Rodrigues"\n \n"</string>
+    <string name="android">Programadores Android</string>
+    <string name="android_nome">Celso Rodrigues, José Costa e Manuel Vale"\n \n"</string>
+    <string name="ios">Programadores IOS"\n \n"</string>
+    <string name="ios_nome">Paulo Cabral e Ivo Moreira"\n \n"</string>
+    <string name="designers">Designers Gráficos"\n \n"</string>
+    <string name="designers_nome">Marta Sofia, Rui Morgado, Mario Graça e Tiago Sapage"\n \n"</string>
+    <string name="webdesigners">Webdesigners"\n \n"</string>
+    <string name="webdesigners_nome">Celso Rodrigues, José Costa e Philippe Moreil"\n \n"</string>
+    <string name="tamanho_prompt">Escolha o tamanho(m)</string>
+    <string name="distrito_prompt">Escolha o distrito</string>
+    <string name="municipio_prompt">Escolha o municipio</string>
+    <string name="tipo_cartaz_prompt">Tipo de cartaz</string>
+    <string name="candidatura_prompt">Escolha a candidatura</string>
+    <string name="independentes_prompt">Escolha o independente</string>
+    <string name="menu_settings">Settings</string>
+
+
+<string name="add_values">Add values to the chart</string>    
+	<string name="x">X</string>    
+	<string name="y">Y</string>
+	<string name="add">Add</string>
+	<string name="new_series">New series</string>
+    <string-array name="tamanhos_arrays">
+        <item>Tamanho dos Cartazes</item>
+        <item>8 x 3 em papel</item>
+        <item>4 x 3 em papel</item>
+        <item>3 x 2 em papel</item>
+        <item>2,40 x 1,70 em papel</item>
+        <item>1,75 x 1,25 em papel</item>
+        <item>8 x 3 em vinil</item>
+        <item>4 x 3 em vinil</item>
+        <item>3 x 2 em vinil</item>
+        <item>2,40 x 1,70 em vinil</item>
+        <item>1,75 x 1,25 em vinil</item>
+        <item>6 x 2,25 em vinil</item>
+        <item>5 x 2 em vinil</item>
+        <item>4 x 1,5 em vinil</item>
+        <item>0,68 x 0,48</item>
+        <item>A1(59,4 x 84,1)</item>
+        <item>A2(42 x 59,4)</item>
+    </string-array>
+    
+   
+    <string-array name="distrito_arrays">
+        <item>Aveiro</item>
+        <item>Beja</item>
+        <item>Braga</item>
+        <item>Bragança</item>
+        <item>Castelo Branco</item>
+        <item> Coimbra</item>
+        <item>Évora</item>
+        <item>Faro</item>
+        <item>Guarda</item>
+        <item>Leiria</item>
+        <item>Lisboa</item>
+        <item>Portalegre</item>
+        <item>Porto</item>
+        <item>Santarém</item>
+        <item>Setúbal</item>
+        <item>Viana do Castelo</item>
+        <item>Vila Real</item>
+        <item> Viseu</item>
+        <item>Região Autónoma: Açores</item>
+        <item>Região Autónoma: Madeira</item>
+    </string-array>
+    <string-array name="aveiro_arrays">
+        <item>Águeda</item>
+        <item>Albergaria-a-Velha</item>
+        <item>Anadia</item>
+        <item>Arouca</item>
+        <item>Aveiro</item>
+        <item>Castelo de Paiva</item>
+        <item>Espinho</item>
+        <item>Estarreja</item>
+        <item>Ílhavo</item>
+        <item>Mealhada</item>
+        <item>Murtosa</item>
+        <item>Oliveira de Azemeis</item>
+        <item>Oliveira do Bairro</item>
+        <item>Ovar</item>
+        <item>Santa Maria da Feira</item>
+        <item>São João da Madeira</item>
+        <item>Sever do Vouga</item>
+        <item>Vagos</item>
+        <item>Vale de Cambra</item>
+    </string-array>
+    <string-array name="beja_arrays">
+        <item>Aljustrel</item>
+        <item>Almodôvar</item>
+        <item>Alvito</item>
+        <item>Barrancos</item>
+        <item>Beja</item>
+        <item>Castro Verde</item>
+        <item>Cuba</item>
+        <item>Ferreira do Alentejo</item>
+        <item>Mértola</item>
+        <item>Moura</item>
+        <item>Odemira</item>
+        <item>Ourique</item>
+        <item>Serpa</item>
+        <item>Vidigueira</item>
+    </string-array>
+    <string-array name="braga_arrays">
+        <item>Amares</item>
+        <item>Barcelos</item>
+        <item>Braga</item>
+        <item>Cabeceiras de Basto</item>
+        <item>Celorico de Basto</item>
+        <item>Esposende</item>
+        <item>Fafe</item>
+        <item>Guimarães</item>
+        <item>Póvoa de Lanhoso</item>
+        <item>Terras de Bouro</item>
+        <item>Vieira do Minho</item>
+        <item>Vila Nova de Famalicão</item>
+        <item>Vila Verde</item>
+        <item>Vizela</item>
+    </string-array>
+    <string-array name="braganca_arrays">
+        <item>Alfândega da Fé</item>
+        <item>Bragança</item>
+        <item>Carrazeda de Ansiães</item>
+        <item>Freixo de Espada à Cinta</item>
+        <item>Macedo de Cavaleiros</item>
+        <item>Miranda do Douro</item>
+        <item>Mirandela</item>
+        <item>Mogadouro</item>
+        <item>Moncorvo</item>
+        <item>Vila Flor</item>
+        <item>Vimioso</item>
+        <item>Vinhais</item>
+    </string-array>
+    <string-array name=" castelo_branco_arrays">
+        <item>Belmonte</item>
+        <item>Castelo Branco</item>
+        <item>Covilhã</item>
+        <item>Fundão</item>
+        <item>Idanha-a-Nova</item>
+        <item>Oleiros</item>
+        <item>Penamacôr</item>
+        <item>Proença-a-Nova</item>
+        <item>Sertã</item>
+        <item>Vila de Rei</item>
+        <item>Vila Velha de Ródão</item>
+    </string-array>
+    <string-array name=" coimbra_arrays">
+        <item>Arganil</item>
+        <item>Cantanhede</item>
+        <item>Coimbra</item>
+        <item>Condeixa-a-Nova</item>
+        <item>Figueira da Foz</item>
+        <item>Góis</item>
+        <item>Lousã</item>
+        <item>Mira</item>
+        <item>Miranda do Corvo</item>
+        <item>Montemor-o-Velho</item>
+        <item>Oliveira do Hospital</item>
+        <item>Pampilhosa da Serra</item>
+        <item>Penacova</item>
+        <item>Penela</item>
+        <item>Soure</item>
+        <item>Tábua</item>
+        <item>Vila Nova de Poiares</item>
+    </string-array>
+    <string-array name=" evora_arrays">
+        <item>Alandroal</item>
+        <item>Arraiolos</item>
+        <item>Borba</item>
+        <item>Estremoz</item>
+        <item>Évora</item>
+        <item>Montemor-o-Novo</item>
+        <item>Mora</item>
+        <item>Mourão</item>
+        <item>Portel</item>
+        <item>Redondo</item>
+        <item>Reguengos de Monsaraz</item>
+        <item>Vendas Novas</item>
+        <item>Viana do Alentejo</item>
+        <item>Vila Viçosa</item>
+    </string-array>
+    <string-array name=" faro_arrays">
+        <item>Albufeira</item>
+        <item>Alcoutim</item>
+        <item>Aljezur</item>
+        <item>Castro Marim</item>
+        <item>Faro</item>
+        <item>Lagoa (Algarve)</item>
+        <item>Lagos</item>
+        <item>Loulé</item>
+        <item>Monchique</item>
+        <item>Olhão</item>
+        <item>Portimão</item>
+        <item>São Brás de Alportel</item>
+        <item>Silves</item>
+        <item>Tavira</item>
+        <item>Vila do Bispo</item>
+        <item>Vila Real de Santo António</item>
+    </string-array>
+    <string-array name=" guarda_arrays">
+        <item>Aguiar da Beira</item>
+        <item>Almeida</item>
+        <item>Celorico da Beira</item>
+        <item>Figueira de Castelo Rodrigo</item>
+        <item>Fornos de Algodres</item>
+        <item>Gouveia</item>
+        <item>Guarda</item>
+        <item>Manteigas</item>
+        <item>Mêda</item>
+        <item>Pinhel</item>
+        <item>Sabugal</item>
+        <item>Seia</item>
+        <item>Trancoso</item>
+        <item>Vila Nova de Foz Côa</item>
+    </string-array>
+    <string-array name=" leiria_arrays">
+        <item>Alcobaça</item>
+        <item>Alvaiázere</item>
+        <item>Ansião</item>
+        <item>Batalha</item>
+        <item>Bombarral</item>
+        <item>Caldas da Rainha</item>
+        <item>Castanheira de Pera</item>
+        <item>Figueiró dos Vinhos</item>
+        <item>Leiria</item>
+        <item>Marinha Grande</item>
+        <item>Nazaré</item>
+        <item>Óbidos</item>
+        <item>Pedrogão Grande</item>
+        <item>Peniche</item>
+        <item>Pombal</item>
+        <item>Porto de Mós</item>
+    </string-array>
+    <string-array name=" lisboa_arrays">
+        <item>Alenquer</item>
+        <item>Amadora</item>
+        <item>Arruda dos Vinhos</item>
+        <item>Azambuja</item>
+        <item>Cadaval</item>
+        <item>Cascais</item>
+        <item>Lisboa</item>
+        <item>Loures</item>
+        <item>Lourinhã</item>
+        <item>Mafra</item>
+        <item>Odivelas</item>
+        <item>Oeiras</item>
+        <item>Sintra</item>
+        <item>Sobral de Monte Agraço</item>
+        <item>Torres Vedras</item>
+        <item>Vila Franca de Xira</item>
+    </string-array>
+    <string-array name=" portalegre_arrays">
+        <item>Alter do Chão</item>
+        <item>Arronches</item>
+        <item>Avis</item>
+        <item>Campo Maior</item>
+        <item>Castelo de Vide</item>
+        <item>Crato</item>
+        <item>Elvas</item>
+        <item>Fronteira</item>
+        <item>Gavião</item>
+        <item>Marvão</item>
+        <item>Monforte</item>
+        <item>Nisa</item>
+        <item>Ponte de Sôr</item>
+        <item>Portalegre</item>
+        <item>Sousel</item>
+    </string-array>
+    <string-array name=" porto_arrays">
+        <item>Amarante</item>
+        <item>Baião</item>
+        <item>Felgueiras</item>
+        <item>Gondomar</item>
+        <item>Lousada</item>
+        <item>Maia</item>
+        <item>Marco de Canaveses</item>
+        <item>Matosinhos</item>
+        <item>Paços de Ferreira</item>
+        <item>Paredes</item>
+        <item>Penafiel</item>
+        <item>Porto</item>
+        <item>Póvoa de Varzim</item>
+        <item>Santo Tirso</item>
+        <item>Trofa</item>
+        <item>Valongo</item>
+        <item>Vila do Conde</item>
+        <item>Vila Nova de Gaia</item>
+    </string-array>
+    <string-array name=" santarem_arrays">
+        <item>Abrantes</item>
+        <item>Alcanena</item>
+        <item>Almeirim</item>
+        <item>Alpiarça</item>
+        <item>Benavente</item>
+        <item>Cartaxo</item>
+        <item>Chamusca</item>
+        <item>Constância</item>
+        <item>Coruche</item>
+        <item>Entroncamento</item>
+        <item>Ferreira do Zêzere</item>
+        <item>Golegã</item>
+        <item>Mação</item>
+        <item>Ourém</item>
+        <item>Rio Maior</item>
+        <item>Salvaterra de Magos</item>
+        <item>Santarem</item>
+        <item>Sardoal</item>
+        <item>Tomar</item>
+        <item>Torres Novas</item>
+        <item>Vila Nova da Barquinha</item>
+    </string-array>
+    <string-array name=" setubal_arrays">
+        <item>Alcácer do Sal</item>
+        <item>Alcochete</item>
+        <item>Almada</item>
+        <item>Barreiro</item>
+        <item>Grândola</item>
+        <item>Moita</item>
+        <item>Montijo</item>
+        <item>Palmela</item>
+        <item>Santiago do Cacém</item>
+        <item>Seixal</item>
+        <item>Sesimbra</item>
+        <item>Setúbal</item>
+        <item>Sines</item>
+    </string-array>
+    <string-array name=" viana_castelo_arrays">
+        <item>Arcos de Valdevez</item>
+        <item>Caminha</item>
+        <item>Melgaço</item>
+        <item>Monção</item>
+        <item>Paredes de Coura</item>
+        <item>Ponte da Barca</item>
+        <item>Ponte de Lima</item>
+        <item>Valença</item>
+        <item>Viana do Castelo</item>
+        <item>Vila Nova de Cerveira</item>
+    </string-array>
+    <string-array name=" vila_real_arrays">
+        <item>Alijó</item>
+        <item>Boticas</item>
+        <item>Chaves</item>
+        <item>Mesão Frio</item>
+        <item>Mondim de Basto</item>
+        <item>Montalegre</item>
+        <item>Murça</item>
+        <item>Peso da Régua</item>
+        <item>Ribeira de Pena</item>
+        <item>Sabrosa</item>
+        <item>Santa Marta de Penaguião</item>
+        <item>Valpaços</item>
+        <item>Vila Pouca de Aguiar</item>
+        <item>Vila Real</item>
+    </string-array>
+    <string-array name=" viseu_arrays">
+        <item>Armamar</item>
+        <item>Carregal do Sal</item>
+        <item>Castro Daire</item>
+        <item>Cinfães</item>
+        <item>Lamego</item>
+        <item>Mangualde</item>
+        <item>Moimenta da Beira</item>
+        <item>Mortágua</item>
+        <item>Nelas</item>
+        <item>Oliveira de Frades</item>
+        <item>Penalva do Castelo</item>
+        <item>Penedono</item>
+        <item>Resende</item>
+        <item>Santa Comba Dão</item>
+        <item>São João da Pesqueira</item>
+        <item>São Pedro do Sul</item>
+        <item>Sátão</item>
+        <item>Sernancelhe</item>
+        <item>Tabuaço</item>
+        <item>Tarouca</item>
+        <item>Tondela</item>
+        <item>Vila Nova de Paiva</item>
+        <item>Viseu</item>
+        <item>Vouzela</item>
+         </string-array>
+    <string-array name=" acores_arrays">
+        <item>Angra do Heroísmo</item>
+        <item>Calheta (Açores)</item>
+        <item>Corvo</item>
+        <item>Horta</item>
+        <item>Lagoa (Açores)</item>
+        <item>Lajes das Flores)</item>
+        <item>Lajes do Pico</item>
+        <item>Madalena</item>
+        <item>Nordeste</item>
+        <item>Ponta Delgada</item>
+        <item>Povoação</item>
+        <item>Praia da Vitória</item>
+        <item>Ribeira Grande</item>
+        <item>Santa Cruz da Graciosa</item>
+        <item>Santa Cruz das Flores</item>
+        <item>São Roque do Pico</item>
+        <item>Velas</item>
+        <item>Vila do Porto</item>
+        <item>Vila Franca do Campo</item>
+         </string-array>
+    <string-array name=" madeira_arrays">
+        <item>Calheta (Madeira)</item>
+        <item>Câmara de Lobos</item>
+        <item>Funchal</item>
+        <item>Machico</item>
+        <item>Ponta do Sol</item>
+        <item>Porto Moniz</item>
+        <item>Porto Santo</item>
+        <item>Ribeira Brava</item>
+        <item>Santa Cruz</item>
+        <item>Santana</item>
+        <item>São Vicente</item>
+    </string-array>
+    <string-array name="candidatura_arrays">
+        <item>PSD</item>
+        <item>PS</item>
+        <item>CDS/PP</item>
+        <item>CDU</item>
+        <item>BE</item>
+        <item>Coligação PSD/CDS/PP</item>
+        <item>Coligação PS/CDU</item>
+        <item>Coligação CDU/BE</item>
+        <item>Independente</item>
+     </string-array>
+ <string-array name="independentes_arrays">
+        <item>Movimento1</item>
+        <item>Movimento2</item>
+        
+     </string-array>
+    
+</resources>

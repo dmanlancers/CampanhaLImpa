@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget32"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/logobg" >
+
+<Button
+    android:id="@+id/btnSubmit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="16dp"
+    android:text="Terminado" />
+
+<Spinner
+    android:id="@+id/spinner_camaras"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/spinner_distrito" />
+
+<Spinner
+    android:id="@+id/spinner_distrito"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="31dp" />
+
+<Spinner
+    android:id="@+id/spinner_listas"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/spinner_camaras"
+    android:layout_marginTop="15dp" />
+
+<EditText
+    android:id="@+id/nome_brinde"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/spinner_listas"
+    android:ems="15"
+    android:hint="Nome do brinde (Obrigatório)"
+    android:inputType="textPersonName" >
+
+    <requestFocus />
+</EditText>
+
+</RelativeLayout>
